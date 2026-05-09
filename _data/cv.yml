@@ -1,0 +1,40 @@
+cv:
+  name: Zisu Huang
+  label: M.S. Student in Computer Science
+  email: huangzs25@m.fudan.edu.cn
+  phone: "+86-17321126787"
+  location: Shanghai, China
+  image: ""
+  summary: M.S. student at the Fudan NLP Group, working on large language models — post-training (SFT and RL), tool-integrated reasoning, long-horizon agents, and LLM safety.
+
+  social_networks:
+    - network: GitHub
+      username: Huangzisu
+
+  sections:
+    Education:
+      - institution: Fudan University
+        location: Shanghai, China
+        url: https://www.fudan.edu.cn/
+        area: Computer Science
+        studyType: M.S.
+        start_date: 2025-09
+        end_date: 2028-06
+        summary: Fudan NLP Group. Research interests in large language models, post-training, tool-integrated reasoning, and LLM agents.
+
+      - institution: Fudan University
+        location: Shanghai, China
+        url: https://www.fudan.edu.cn/
+        area: Software Engineering
+        studyType: B.E.
+        start_date: 2021-09
+        end_date: 2025-06
+        score: "3.60 / 4.00"
+
+    Experience:
+      - company: Microsoft Research Asia
+        position: Research Intern, Visual Computing Group
+        location: Shanghai, China
+        start_date: 2026-03
+        end_date: present
+        summary: Research intern with the Visual Computing Group, supervised by Yifan Yang.
