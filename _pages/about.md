@@ -18,7 +18,7 @@ miscellaneous_text: "Recently, I have really enjoyed playing tennis 🎾 and hav
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 6 # leave blank to include all the news in the `_news` folder
+  limit: 7 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: false
