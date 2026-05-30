@@ -114,12 +114,12 @@ layout: default
 
         <!-- Summary -->
         {% comment %}
-        {% if cv.summary %}
-          <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">Professional Summary</h3>
-            <p>{{ cv.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
-          </div>
-        {% endif %}
+          {% if cv.summary %}
+            <div class="card mt-3 p-3">
+              <h3 class="card-title font-weight-medium">Professional Summary</h3>
+              <p>{{ cv.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+            </div>
+          {% endif %}
         {% endcomment %}
 
         <!-- RenderCV Sections - Merge Experience and Volunteer -->
@@ -256,12 +256,12 @@ layout: default
 
         <!-- Summary -->
         {% comment %}
-        {% if site.data.resume.basics.summary %}
-          <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">Professional Summary</h3>
-            <p>{{ site.data.resume.basics.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
-          </div>
-        {% endif %}
+          {% if site.data.resume.basics.summary %}
+            <div class="card mt-3 p-3">
+              <h3 class="card-title font-weight-medium">Professional Summary</h3>
+              <p>{{ site.data.resume.basics.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+            </div>
+          {% endif %}
         {% endcomment %}
 
         <!-- JSONResume Sections - Merge work and volunteer into Experience -->
