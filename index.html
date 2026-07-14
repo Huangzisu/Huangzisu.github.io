@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hey there - I'm Zisu 👋</title>
+    <link rel="icon" type="image/svg+xml" href="assets/custom/favicon.svg" />
+    <link rel="preload" as="image" href="assets/img/zisu_manga.jpg" fetchpriority="high" />
+    <link rel="preload" as="image" href="assets/img/zisu.jpg" />
+    <meta
+      name="description"
+      content="Zisu Huang — M.S. student at Fudan NLP Group. Research on AI agents, personalized agents, and agent evolution."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Fraunces:ital,opsz,wght,WONK@0,9..144,300..900,0;0,9..144,300..900,1;1,9..144,300..900,0;1,9..144,300..900,1&family=Newsreader:ital,opsz,wght@0,6..72,200..600;1,6..72,200..600&family=Space+Mono:wght@400;700&family=Pacifico&display=swap"
+      rel="stylesheet"
+      media="print"
+      onload="this.media = 'all'"
+    />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Fraunces:ital,opsz,wght,WONK@0,9..144,300..900,0;0,9..144,300..900,1;1,9..144,300..900,0;1,9..144,300..900,1&family=Newsreader:ital,opsz,wght@0,6..72,200..600;1,6..72,200..600&family=Space+Mono:wght@400;700&family=Pacifico&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      media="print"
+      onload="this.media = 'all'"
+    />
+    <noscript>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    </noscript>
+    <link rel="stylesheet" href="assets/custom/style.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+
+    <!-- ============ NAV ============ -->
+    <header class="nav" id="nav">
+      <a href="#top" class="nav__brand">
+        <span class="nav__mark">ZH</span>
+        <span class="nav__name">Zisu&nbsp;Huang</span>
+      </a>
+      <nav class="nav__links">
+        <a href="#about">About</a>
+        <a href="#publications">Papers</a>
+        <a href="#project">Projects</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <!-- ============ HERO ============ -->
+      <section class="hero" id="about">
+        <div class="hero__portrait">
+          <button class="portrait" type="button" aria-pressed="false" aria-label="Toggle between illustrated and real portrait">
+            <div class="portrait__flip">
+              <div class="portrait__face portrait__face--front">
+                <img src="assets/img/zisu_manga.jpg" alt="Illustrated avatar of Zisu Huang" loading="eager" fetchpriority="high" />
+              </div>
+              <div class="portrait__face portrait__face--back">
+                <img src="assets/img/zisu.jpg" alt="Photo of Zisu Huang" loading="eager" />
+              </div>
+            </div>
+            <span class="portrait__peek" aria-hidden="true">
+              <img class="portrait__peek-img portrait__peek-img--real" src="assets/img/zisu.jpg" alt="" />
+              <img class="portrait__peek-img portrait__peek-img--manga" src="assets/img/zisu_manga.jpg" alt="" />
+            </span>
+          </button>
+          <ul class="contact" aria-label="Contact links">
+            <li>
+              <a href="mailto:huangzs25@m.fudan.edu.cn"><i class="fa-regular fa-envelope"></i> huangzs25@m.fudan.edu.cn</a>
+            </li>
+            <li>
+              <a href="https://scholar.google.com/citations?user=pPWWY2oAAAAJ" target="_blank" rel="noopener"
+                ><i class="fa-brands fa-google-scholar"></i> Google Scholar</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/Huangzisu" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="hero__text">
+          <h1 class="hero__name">Zisu Huang</h1>
+
+          <p class="hero__bio">
+            Hi! I'm <strong>Zisu Huang (黄子骕)</strong>, a first-year M.S. student in Computer Science at
+            <a href="https://www.fudan.edu.cn/" target="_blank" rel="noopener"
+              ><span class="logo-word"><img class="inline-logo" src="assets/custom/logos/fudan_seal.png" alt="" />Fudan University</span></a
+            >, and a member of
+            <a href="https://nlp.fudan.edu.cn/" target="_blank" rel="noopener"
+              ><span class="logo-word"><img class="inline-logo inline-logo--nlp" src="assets/custom/logos/fudannlp_badge.png" alt="" />Fudan</span>
+              NLP Group</a
+            >, advised by Assoc. Prof.
+            <a href="https://faculty.fudan.edu.cn/zhengxq/zh_CN/" target="_blank" rel="noopener">Xiaoqing Zheng</a>
+            and Prof.
+            <a href="https://xuanjing-huang.github.io/" target="_blank" rel="noopener">Xuanjing Huang</a>. I earned my B.E. in Software Engineering
+            from Fudan University in 2025. I am currently a research intern at
+            <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/" target="_blank" rel="noopener"
+              ><span class="logo-word"><img class="inline-logo" src="assets/custom/logos/microsoft.svg" alt="" />Microsoft</span> Research Asia</a
+            >
+            working with
+            <a href="https://www.microsoft.com/en-us/research/people/yifanyang/" target="_blank" rel="noopener">Yifan Yang</a>.
+          </p>
+
+          <p class="hero__tagline">
+            My research centers on <span class="kw-lead">AI agents</span> — building <span class="kw">capable</span>,
+            <span class="kw">autonomous</span> agents that can <span class="kw">self-improve</span>, and enabling them to reliably solve
+            <span class="kw">complex real-world tasks</span>. In particular, I focus on:
+          </p>
+
+          <ul class="focus">
+            <li>
+              <span class="focus__key">Personalized agents</span>: developing more effective personalized agents through both
+              <span class="term">model training</span> and external <span class="term">system optimization</span>, such as persistent memory.
+            </li>
+            <li>
+              <span class="focus__key">Agent evolution</span>:
+              <ul class="focus focus--sub">
+                <li>
+                  <span class="focus__key">Parametric evolution</span>: improving agentic capabilities through
+                  <span class="term">parameter updates</span>, approached from both <span class="term">data-centric</span> and
+                  <span class="term">algorithm-centric</span> perspectives.
+                </li>
+                <li>
+                  <span class="focus__key">Non-parametric evolution</span>: expanding the capability boundary of agents in a
+                  <span class="term">training-free</span> manner, e.g., through <span class="term">agent skills</span>,
+                  <span class="term">orchestration</span>, and <span class="term">harness design</span>.
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <div class="news-head" id="news">
+            <h2 class="news-title">News</h2>
+          </div>
+          <div class="news-panel">
+            <ol class="news">
+              <li>
+                <time>May 2026</time>
+                <p>
+                  Released two new works on agent skills —
+                  <a href="https://arxiv.org/abs/2605.23904" target="_blank" rel="noopener">SkillOpt</a
+                  ><span class="gh-star" data-repo="microsoft/SkillOpt"></span>
+                  and
+                  <a href="https://arxiv.org/abs/2605.23899" target="_blank" rel="noopener">SkillLens</a
+                  ><span class="gh-star" data-repo="microsoft/SkillLens"></span>. <strong>SkillOpt</strong> sparked a lot of community discussion —
+                  thanks for the support!
+                </p>
+              </li>
+              <li>
+                <time>May 2026</time>
+                <p><strong>TRIP-Bench</strong> accepted to <strong>ICML 2026</strong>.</p>
+              </li>
+              <li>
+                <time>Apr 2026</time>
+                <p>
+                  New survey out —
+                  <em>Reward Hacking in the Era of Large Models: Mechanisms, Emergent Misalignment, Challenges</em>.
+                </p>
+              </li>
+              <li>
+                <time>Apr 2026</time>
+                <p><strong>SteeM</strong> accepted to <strong>ACL 2026</strong> (Main Conference).</p>
+              </li>
+              <li>
+                <time>Mar 2026</time>
+                <p>
+                  Started a research internship at the Visual Computing Group,
+                  <strong>Microsoft Research Asia</strong> (Shanghai).
+                </p>
+              </li>
+              <li>
+                <time>Jan 2026</time>
+                <p><strong>RECAST</strong> accepted to <strong>ICLR 2026</strong>.</p>
+              </li>
+              <li>
+                <time>Aug 2025</time>
+                <p>Two papers accepted to <strong>EMNLP 2025</strong> — <strong>SATER</strong> and <strong>FedQSN</strong>.</p>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ PUBLICATIONS ============ -->
+      <section class="block" id="publications">
+        <div class="block__head">
+          <h2 class="block__title">
+            Selected&nbsp;Papers
+            <span class="block__aside">(&nbsp;<sup>*</sup> denotes equal contribution&nbsp;)</span>
+          </h2>
+        </div>
+        <div class="block__body">
+          <ul class="pubs">
+            <!-- SkillOpt -->
+            <li class="pub">
+              <a class="pub__thumb" href="https://arxiv.org/abs/2605.23904" target="_blank" rel="noopener">
+                <img src="assets/img/publication_preview/skillopt-teaser.png" alt="SkillOpt teaser" loading="lazy" />
+              </a>
+              <div class="pub__meta">
+                <div class="pub__topline">
+                  <span class="pub__venue">arXiv 2026 · Under Review</span>
+                  <p class="pub__topics">
+                    <span>Agent Skills</span>
+                    <span>Self-Evolution</span>
+                  </p>
+                </div>
+                <h3 class="pub__title">SkillOpt: Executive Strategy for Self-Evolving Agent Skills</h3>
+                <p class="pub__authors">
+                  Yifan Yang<sup>*</sup>, Ziyang Gong<sup>*</sup>, Weiquan Huang<sup>*</sup>, Qihao Yang<sup>*</sup>, Ziwei Zhou<sup>*</sup>,
+                  <span class="me">Zisu Huang</span><sup>*</sup>, et al.
+                </p>
+                <p class="pub__badges">
+                  <span class="tag tag--star"><i class="fa-brands fa-github"></i> 10k+ GitHub stars</span>
+                  <span class="tag tag--blue"><i class="fa-brands fa-x-twitter"></i> 1M+ views</span>
+                  <span class="tag tag--orange">🤗 #1 Paper of the Day</span>
+                </p>
+                <p class="pub__links">
+                  <a href="https://arxiv.org/abs/2605.23904" target="_blank" rel="noopener">Paper</a>
+                  <a href="https://microsoft.github.io/SkillOpt/" target="_blank" rel="noopener">Website</a>
+                  <a href="https://github.com/microsoft/SkillOpt" target="_blank" rel="noopener">Code</a>
+                  <a href="https://www.youtube.com/watch?v=JUBMDTCiM0M" target="_blank" rel="noopener">Video</a>
+                </p>
+              </div>
+            </li>
+
+            <!-- SkillLens -->
+            <li class="pub">
+              <a class="pub__thumb" href="https://arxiv.org/abs/2605.23899" target="_blank" rel="noopener">
+                <img src="assets/img/publication_preview/skilllens-main.png" alt="SkillLens overview" loading="lazy" />
+              </a>
+              <div class="pub__meta">
+                <div class="pub__topline">
+                  <span class="pub__venue">arXiv 2026 · Under Review</span>
+                  <p class="pub__topics">
+                    <span>Agent Skills</span>
+                    <span>Empirical Study</span>
+                  </p>
+                </div>
+                <h3 class="pub__title">From Raw Experience to Skill Consumption: A Systematic Study of Model-Generated Agent Skills</h3>
+                <p class="pub__authors">
+                  <span class="me">Zisu Huang</span><sup>*</sup>, Jingwen Xu<sup>*</sup>, Yifan Yang, Ziyang Gong, Qihao Yang, et al.
+                </p>
+                <p class="pub__links">
+                  <a href="https://arxiv.org/abs/2605.23899" target="_blank" rel="noopener">Paper</a>
+                  <a href="https://microsoft.github.io/SkillLens/" target="_blank" rel="noopener">Website</a>
+                  <a href="https://github.com/microsoft/SkillLens" target="_blank" rel="noopener">Code</a>
+                </p>
+              </div>
+            </li>
+
+            <!-- SteeM -->
+            <li class="pub">
+              <span class="pub__thumb">
+                <img src="assets/img/publication_preview/steem.png" alt="Controllable Memory Usage" loading="lazy" />
+              </span>
+              <div class="pub__meta">
+                <div class="pub__topline">
+                  <span class="pub__venue pub__venue--accent">ACL 2026 · Main</span>
+                  <p class="pub__topics">
+                    <span>Personalized Agents</span>
+                    <span>Long-Term Memory</span>
+                  </p>
+                </div>
+                <h3 class="pub__title">Controllable Memory Usage: Balancing Anchoring and Innovation in Long-Term Human–Agent Interaction</h3>
+                <p class="pub__authors">
+                  <span class="me">Zisu Huang</span><sup>*</sup>, Muzhao Tian<sup>*</sup>, Xiaohua Wang, Jingwen Xu, Zhengkang Guo, et al.
+                </p>
+                <p class="pub__links">
+                  <a href="https://aclanthology.org/2026.acl-long.670.pdf" target="_blank" rel="noopener">Paper</a>
+                </p>
+              </div>
+            </li>
+
+            <!-- TRIP-Bench -->
+            <li class="pub">
+              <span class="pub__thumb">
+                <img src="assets/img/publication_preview/trip-bench.png" alt="TRIP-Bench" loading="lazy" />
+              </span>
+              <div class="pub__meta">
+                <div class="pub__topline">
+                  <span class="pub__venue pub__venue--accent">ICML 2026 · Poster</span>
+                  <p class="pub__topics">
+                    <span>Interactive Agents</span>
+                    <span>Deep Planning</span>
+                  </p>
+                </div>
+                <h3 class="pub__title">TRIP-Bench: A Benchmark for Long-Horizon Interactive Agents in Real-World Scenarios</h3>
+                <p class="pub__authors">
+                  Yuanzhe Shen<sup>*</sup>, <span class="me">Zisu Huang</span><sup>*</sup>, Zhengyuan Wang<sup>*</sup>, Muzhao Tian<sup>*</sup>, et
+                  al.
+                </p>
+                <p class="pub__links">
+                  <a href="https://openreview.net/pdf?id=bF1V9A56d3" target="_blank" rel="noopener">Paper</a>
+                </p>
+              </div>
+            </li>
+
+            <!-- RECAST -->
+            <li class="pub">
+              <span class="pub__thumb">
+                <img src="assets/img/publication_preview/recast.png" alt="RECAST" loading="lazy" />
+              </span>
+              <div class="pub__meta">
+                <div class="pub__topline">
+                  <span class="pub__venue pub__venue--accent">ICLR 2026 · Poster</span>
+                  <p class="pub__topics">
+                    <span>Instruction Following</span>
+                    <span>Data Synthesis</span>
+                  </p>
+                </div>
+                <h3 class="pub__title">RECAST: Strengthening LLMs' Complex Instruction Following with Constraint-Verifiable Data</h3>
+                <p class="pub__authors">
+                  Wenhao Liu, Zhengkang Guo, Mingchen Xie, Jingwen Xu,
+                  <span class="me">Zisu Huang</span>, et al.
+                </p>
+                <p class="pub__links">
+                  <a href="https://openreview.net/pdf?id=90tCp2KszA" target="_blank" rel="noopener">Paper</a>
+                </p>
+              </div>
+            </li>
+
+            <!-- Refiner RL -->
+            <li class="pub">
+              <a class="pub__thumb" href="https://arxiv.org/abs/2407.01461" target="_blank" rel="noopener">
+                <img src="assets/img/publication_preview/refiner.png" alt="Query Refinement RL" loading="lazy" />
+              </a>
+              <div class="pub__meta">
+                <div class="pub__topline">
+                  <span class="pub__venue">arXiv 2024</span>
+                  <p class="pub__topics">
+                    <span>Query Refinement</span>
+                    <span>Reinforcement Learning</span>
+                  </p>
+                </div>
+                <h3 class="pub__title">
+                  Enhancing the Capability and Robustness of Large Language Models through Reinforcement Learning-Driven Query Refinement
+                </h3>
+                <p class="pub__authors">
+                  <span class="me">Zisu Huang</span><sup>*</sup>, Xiaohua Wang<sup>*</sup>, Feiran Zhang, Zhibo Xu, Cenyuan Zhang, et al.
+                </p>
+                <p class="pub__links">
+                  <a href="https://arxiv.org/abs/2407.01461" target="_blank" rel="noopener">Paper</a>
+                </p>
+              </div>
+            </li>
+          </ul>
+
+          <p class="pubs-all">
+            See the full list on my
+            <a href="https://scholar.google.com/citations?user=pPWWY2oAAAAJ" target="_blank" rel="noopener">Google Scholar</a>.
+          </p>
+        </div>
+      </section>
+
+      <!-- ============ PROJECT ============ -->
+      <section class="block" id="project">
+        <div class="block__head">
+          <h2 class="block__title">
+            Projects
+            <span class="block__aside">(&nbsp;<sup>*</sup> denotes equal contribution&nbsp;)</span>
+          </h2>
+        </div>
+        <div class="block__body">
+          <ul class="pubs">
+            <!-- Reward Hacking Survey -->
+            <li class="pub">
+              <a class="pub__thumb" href="https://arxiv.org/abs/2604.13602" target="_blank" rel="noopener">
+                <img src="assets/img/publication_preview/reward-hacking-survey.png" alt="Reward Hacking survey" loading="lazy" />
+              </a>
+              <div class="pub__meta">
+                <div class="pub__topline">
+                  <span class="pub__venue pub__venue--survey">Survey 2026</span>
+                  <p class="pub__topics">
+                    <span>Reward Hacking</span>
+                    <span>Reinforcement Learning</span>
+                  </p>
+                </div>
+                <h3 class="pub__title">Reward Hacking in the Era of Large Models: Mechanisms, Emergent Misalignment, Challenges</h3>
+                <p class="pub__authors">
+                  Xiaohua Wang<sup>*</sup>, Muzhao Tian<sup>*</sup>, Yuqi Zeng<sup>*</sup>, <span class="me">Zisu Huang</span><sup>*</sup>, Jiakang
+                  Yuan<sup>*</sup>, Bowen Chen<sup>*</sup>, et al.
+                </p>
+                <p class="pub__links">
+                  <a href="https://arxiv.org/abs/2604.13602" target="_blank" rel="noopener">Paper</a>
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ============ VISITOR MAP ============ -->
+      <section class="visitor-map" aria-label="Visitor map">
+        <div class="visitor-map__content">
+          <div class="visitor-map__widget">
+            <script id="_wauzsu">
+              var _wau = window._wau || [];
+              _wau.push(["map", "sbeqgz6eqd", "zsu", "280", "140", "dashmap", "default-blue"]);
+            </script>
+            <script async src="https://waust.at/m.js"></script>
+            <noscript>Enable JavaScript to view the visitor map.</noscript>
+          </div>
+          <a
+            class="visitor-map__counter"
+            href="https://hits.sh/huangzisu.github.io/home/"
+            target="_blank"
+            rel="noopener"
+            aria-label="View pageview statistics"
+          >
+            <img src="https://hits.sh/huangzisu.github.io/home.svg?label=%20&amp;color=16181c&amp;style=flat-square" alt="" />
+            <span>views</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer" id="contact">
+      <p class="footer__fine">© <span id="year"></span> Zisu Huang</p>
+    </footer>
+
+    <script src="assets/custom/main.js"></script>
+  </body>
+</html>
