@@ -945,6 +945,10 @@ main {
   object-fit: cover;
   transition: transform 0.5s var(--ease);
 }
+.pub__thumb img.pub__thumb-img--contain {
+  object-fit: contain;
+  background: #fff;
+}
 .pub:hover .pub__thumb img {
   transform: scale(1.05);
 }
