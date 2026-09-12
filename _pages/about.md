@@ -26,15 +26,13 @@ latest_posts:
   limit: 3
 ---
 
-I am a first-year M.S. student in Computer Science at [Fudan University](https://www.fudan.edu.cn/), and a member of [Fudan NLP Group](https://nlp.fudan.edu.cn/), advised by A.P. [Xiaoqing Zheng](https://faculty.fudan.edu.cn/zhengxq/zh_CN/) and Prof. [Xuanjing Huang](https://xuanjing-huang.github.io/). I received my B.E. in Software Engineering from Fudan University in 2025.
+I am a second-year M.S. student in Computer Science at [Fudan University](https://www.fudan.edu.cn/), and a member of [Fudan NLP Group](https://nlp.fudan.edu.cn/), advised by A.P. [Xiaoqing Zheng](https://faculty.fudan.edu.cn/zhengxq/zh_CN/) and Prof. [Xuanjing Huang](https://xuanjing-huang.github.io/). I received my B.E. in Software Engineering from Fudan University in 2025.
 
 I am currently a research intern in the Visual Computing Group at [Microsoft Research Asia](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/), working with [Yifan Yang](https://www.microsoft.com/en-us/research/people/yifanyang/).
 
-My research interests center on **AI agents**, with a particular focus on:
+My research focuses on **AI agents**: building **capable**, **autonomous** agents that can **self-improve** and reliably solve **complex real-world tasks**. In particular, I study how to improve AI agents through two complementary forms of evolution:
 
-- **Personalized agents**: developing more effective personalized agents through both model-level adaptation and harness/system design.
-- **Agent evolution**:
-  - **Parametric evolution**: improving agentic capabilities through parameter updates, e.g., agentic RL.
-  - **Non-parametric evolution**: expanding the capability boundary of agents in a training-free manner, e.g., through agent skills, orchestration, and harness design.
+- **Parametric evolution**: improving agentic capabilities through <u>parameter updates</u>, with both <u>data-centric</u> and <u>algorithm-centric</u> approaches.
+- **Non-parametric evolution**: expanding agent capabilities in a <u>training-free</u> manner through <u>agent skills</u>, <u>orchestration</u>, and <u>harness design</u>.
 
 Feel free to reach out if you'd like to chat about research or collaborate.
