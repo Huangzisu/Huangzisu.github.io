@@ -274,14 +274,29 @@ main,
   color: var(--blue);
 }
 .contact {
+  --contact-gap: 20px;
   display: flex;
   flex-direction: row;
-  gap: 16px;
+  gap: var(--contact-gap);
   margin: 0;
   color: var(--ink);
   font-size: 0.875rem;
   line-height: 1.5;
   white-space: nowrap;
+}
+.contact li {
+  position: relative;
+}
+.contact li + li::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: calc(var(--contact-gap) / -2);
+  width: 1px;
+  height: 0.8em;
+  background: #55635b;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
 }
 .contact a {
   text-decoration: none;
@@ -596,6 +611,7 @@ main,
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  background: #f3f6f8;
 }
 .pub__thumb img {
   width: 100%;
@@ -611,11 +627,7 @@ main,
 .pub--feature .pub__thumb {
   height: 242px;
   padding: 25px 30px;
-  background: white;
   border: 1px solid var(--line);
-}
-.pub--feature:nth-child(even) .pub__thumb {
-  background: #f3f6f8;
 }
 .pub--feature .pub__meta {
   padding-top: 21px;
@@ -633,12 +645,15 @@ main,
 }
 .pub__venue--accent {
   display: inline-flex;
-  align-items: baseline;
+  align-items: center;
+  justify-content: center;
+  min-height: 1.625rem;
   gap: 6px;
   padding: 2px 8px;
   border-radius: 3px;
   background: #eaf0fb;
   color: #224e9b;
+  box-shadow: inset 0 0 0 1px #cbd8ee;
   font: 400 0.875rem/1.55 var(--sans);
   white-space: nowrap;
 }
@@ -647,6 +662,28 @@ main,
 }
 .pub__venue--accent > span {
   color: #476185;
+}
+.pub__venue--spotlight {
+  background: #fff3d8;
+  color: #78521b;
+  box-shadow: inset 0 0 0 1px #e8d3a6;
+}
+.pub__venue--spotlight > span {
+  color: inherit;
+}
+.pub__venue--spotlight .pub__distinction {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 700;
+}
+.pub__distinction i {
+  color: #a67725;
+  font-size: 0.75em;
+  line-height: 1;
+}
+.news .news__spotlight {
+  color: #78521b;
 }
 .pub__topics {
   display: flex;
@@ -782,7 +819,6 @@ main,
   grid-row: 1;
   height: 107px;
   align-self: center;
-  background: white;
   border: 1px solid #e1e6e2;
   padding: 9px;
 }
@@ -892,7 +928,6 @@ main,
 }
 .project-papers .pub__thumb {
   height: 170px;
-  background: white;
   border: 1px solid var(--line);
   padding: 20px;
   margin-bottom: 0;
@@ -1039,7 +1074,7 @@ main,
     letter-spacing: 0.02em;
   }
   .contact {
-    gap: 14px;
+    --contact-gap: 16px;
     font-size: 0.875rem;
   }
   .section-heading {
